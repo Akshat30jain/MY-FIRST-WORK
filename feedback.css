@@ -1,0 +1,109 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(background.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+ul{
+	float: right;
+	margin-top: 25px;
+	background-color: transparent;
+}
+ul li{
+	display: inline-block;
+	border-color: transparent;
+
+}
+ul li a{
+	text-decoration: none;
+	font-family: century gothic;
+	color: black;
+	padding: 1px 30px ;
+	margin: 10px;
+	border: 1px solid #000;
+	transition: 0.4s ease;
+	background-color: #cce6ff;
+}
+ .main ul li :hover{
+	background-color: #fff;
+	color: #000;
+}
+li.activ a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+max-height: 1200px;
+	margin:auto;
+} 
+#tittle{
+	color: #fff;
+       font-size: .75cm;
+	 font-family: "courier new",courier,monospace ; 
+	 margin-left: .5cm;
+	 margin-top: .8cm;
+}
+.sub{
+	display: none;
+}
+ .main ul li:hover .sub
+ {
+ 	 font-family: Arial;
+ 	display: block;
+ 	position: absolute;
+ 	background: white;
+ 	height: 240px;
+ 	width: 170px;
+ 	opacity: .8;
+ 	line-height: 40px;
+ 	margin-top: 2px;
+ }
+ .feedback-form{
+ 	width: 50%;
+ 	background: #f1f1f1;
+ 	position: absolute;
+ 	top: 60%;
+ 	left: 30%;
+ 	transform: translate(-50% , -50%);
+ 	padding: 30px 40px;
+ 	box-sizing: border-box;
+ 	border-radius: 8px;
+ 	text-align: center;
+ 	box-shadow: 0 0 20px #000000b3;
+ }
+ .txtb{
+ 	border: 1px solid gray;
+ 	margin: 8px 0;
+ 	padding : 12px 18px;
+ 	border-radius: 8px;
+
+ }
+ .txtb label{
+ 	display: block;
+ 	text-align: left;
+ 	color: #333;
+ 	text-transform: uppercase;
+ 	font-size: 14px;
+ }
+.txtb input , .txtb textarea{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.bttn{
+	display: block;
+	background: #9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: not-allowed;
+	margin-top: 8px;
+	width: 100%;
+}
+.bttn:hover{
+	background-color: #8b0000;
+}
